@@ -1,0 +1,275 @@
+body{ font-family: Arial; 
+        margin: 0; 
+        background: #f8f8f8; 
+
+    }
+    header { 
+        background: #e31837;
+         color: #fff; 
+         padding: 15px; 
+         text-align: center; 
+         font-size: 24px; 
+         font-weight: bold; 
+        }
+    nav { 
+        background: #333;
+         display: flex; 
+         justify-content: center;
+         }
+    nav a { color: #fff;
+         padding: 14px 20px;
+          text-decoration: none;
+           font-weight: bold; 
+        }
+    nav a:hover { background: #e31837;
+     }
+     .button{
+        background: #000000;
+        color: #e0b9b9;
+        padding: 12px 24px; 
+        border-radius: 30px; 
+        cursor: pointer; 
+        text-decoration: none;
+        font-weight: bold; 
+        
+     }
+    .banner { 
+        background: url('https://via.placeholder.com/1200x400?text=Delicious+Pizza') no-repeat center; 
+    background-size: cover;
+     height: 300px; 
+    }
+    .menu { display: flex;
+         flex-wrap: wrap; 
+         justify-content: center;
+          padding: 20px; 
+        }
+    .pizza { 
+        background: #fff;
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 15px;
+        width: 250px;
+        text-align: center;
+        padding: 15px;}
+    .pizza img { 
+        width: 100%; 
+        border-radius: 8px; 
+    }
+    .pizza h3 { 
+        margin: 10px 0;
+        color: #333; 
+        }
+    .pizza p { 
+        color: #666;
+        font-size: 14px; 
+        }
+    .pizza button { 
+        background: #e31837;
+        color: #fff;
+        border: none;
+        padding: 10px 15px; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        font-weight: bold; 
+    }
+    .pizza button:hover { 
+        background: #b9152c;
+     }
+     .coffee { 
+        background: #fff;
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 15px;
+        width: 250px;
+        text-align: center;
+        padding: 15px;}
+    .coffee img { 
+        width: 100%; 
+        border-radius: 8px; 
+    }
+    .coffee h3 { 
+        margin: 10px 0;
+        color: #333; 
+        }
+    .coffee p { 
+        color: #666;
+        font-size: 14px; 
+        }
+    .coffee button { 
+        background: #e31837;
+        color: #fff;
+        border: none;
+        padding: 10px 15px; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        font-weight: bold; 
+    }
+    .coffee button:hover { 
+        background: #b9152c;
+     }
+     .drinks{ 
+        background: #fff;
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 15px;
+        width: 250px;
+        text-align: center;
+        padding: 15px;}
+    .drinks img { 
+        width: 100%; 
+        border-radius: 8px; 
+    }
+    .drinks h3 { 
+        margin: 10px 0;
+        color: #333; 
+        }
+    .drinks p { 
+        color: #666;
+        font-size: 14px; 
+        }
+    .drinks button { 
+        background: #e31837;
+        color: #fff;
+        border: none;
+        padding: 10px 15px; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        font-weight: bold; 
+    }
+    .drinks button:hover { 
+        background: #b9152c;
+     }
+     .burger{ 
+        background: #fff;
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 15px;
+        width: 250px;
+        text-align: center;
+        padding: 15px;}
+    .burger img { 
+        width: 100%; 
+        border-radius: 8px; 
+    }
+    .burger h3 { 
+        margin: 10px 0;
+        color: #333; 
+        }
+    .burger p { 
+        color: #666;
+        font-size: 14px; 
+        }
+    .burger button { 
+        background: #e31837;
+        color: #fff;
+        border: none;
+        padding: 10px 15px; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        font-weight: bold; 
+    }
+    .burger button:hover { 
+        background: #b9152c;
+     }
+
+    footer { 
+        background: #070303;
+        color: #fff;
+        text-align: center; 
+        padding: 15px; 
+        margin-top: 20px; 
+    }
+    
+    .modal { 
+        display: none;
+        position: fixed; 
+        top: 0; left: 0;
+        width: 100%; 
+        height: 100%; 
+        background: rgba(0,0,0,0.6); 
+        justify-content: center; 
+        align-items: center; 
+    }
+    .modal-content{ background: #fff;
+         padding: 20px; 
+         border-radius: 8px; 
+         width: 300px; 
+         text-align: center;
+         }
+    .close { 
+        float: right; 
+        cursor: pointer; 
+        color: red; 
+        font-weight: bold; 
+    }
+    input, textarea { 
+        width: 100%;
+        margin: 8px 0;
+        padding: 8px;
+    }
+    button.submit { 
+        background: #e31837; 
+        color: #fff; 
+        border: none; 
+        padding: 10px; 
+        border-radius: 5px; 
+        cursor: pointer; 
+    }
+    .coupons{ 
+        background: #000000;
+        border: 2px dashed #e31837;
+        text-align: center;
+        
+    }
+    .card{
+        background: #000000;
+        border-radius: 16px; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 15px;
+        width: 250px;
+        text-align: center;
+        padding: 15px;
+    }
+     .card:hover{
+        transform: translate(-6px);
+     }
+     @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+    }
+    .coupon {
+      border: 2px dashed #e67e22;
+      background: #000000;
+      text-align: center;
+    }
+
+    .contact-box {
+      background: rgb(0, 0, 0);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(246, 248, 248, 0.08);
+      max-width: 700px;
+      margin: auto;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    
+  

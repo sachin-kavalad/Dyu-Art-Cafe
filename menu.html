@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Dyu Art Cafe </title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+        body{
+    background-image: url('home.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    margin: 0;
+    font-family:arial ;
+    color: white;
+    text-align: center;
+    background-color: beige;
+}
+    </style>
+   <body>
+  <header> Dyu Art Cafe </header>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="offers.html">Offers</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="banner"></div>
+  <section class="menu">
+    <div class="pizza">
+      <img src="margherita.jpeg" alt="Margherita Pizza">
+      <h3>Margherita</h3>
+      <p>Classic delight with 100% real mozzarella cheese.</p>
+      <p>Price: ₹250</p>
+      <button onclick="openOrder('Margherita')">Order Now</button>
+    </div>
+    <div class="pizza">
+      <img src="pepperoni.jpeg" alt="Pepperoni Pizza">
+      <h3>Pepperoni</h3>
+      <p>Loaded with pepperoni and extra cheese.</p>
+      <p>Price: ₹300</p>
+      <button onclick="openOrder('Pepperoni')">Order Now</button>
+    </div>
+    <div class="pizza">
+      <img src="veggie.jpeg" alt="Veggie Supreme Pizza">
+      <h3>Veggie Supreme</h3>
+     
+      <p>A colorful mix of fresh veggies and cheese.</p>
+       <p>Price: ₹350</p>
+      <button onclick="openOrder('Veggie Supreme')">Order Now</button>
+    </div>
+     <div class="pizza">
+      <img src="chicken.jpeg" alt="Chicken Supreme Pizza">
+      <h3>Chicken Supreme</h3>
+      
+      <p>Fresh Chicken and cheese.</p>
+      <p>Price: ₹400</p>
+      <button onclick="openOrder('Chicken Supreme')">Order Now</button>
+    </div>
+     <div class="pizza">
+      <img src="mutton.jpeg" alt="Mutton Cheese burst Pizza">
+      <h3>Mutton Cheese burst</h3>
+      <p>Fresh Mutton with burst cheese.</p>
+      <p>Price: ₹450</p>
+      <button onclick="openOrder('Mutton Cheese burst')">Order Now</button>
+    </div>
+    <div class="pizza">
+      <img src="neapolitan.jpeg" alt="Neapolitan Pizza">
+      <h3>Neapolitan</h3>
+      <p>Neapolitan chesse and soft crust</p>
+      <p>Price: ₹500</p>
+      <button onclick="openOrder('Neapolitan pizza')">Order Now</button>
+    </div>
+
+    <div class="coffee">
+      <img src="americano.jpeg" alt="Americano Coffee">
+      <h3>AMERICANO</h3>
+      <p>Rich and bold espresso with steamed milk.</p>
+      <p>Price: ₹150</p>
+      <button onclick="openOrder('Americano')">Order Now</button>
+    </div>
+    <div class="coffee">
+      <img src="mocha.jpeg" alt="Mocha Coffee">
+      <h3>MOCHA</h3>
+      <p>Rich and bold espresso with steamed milk and chocolate.</p>
+      <p>Price: ₹180</p>
+      <button onclick="openOrder('Mocha')">Order Now</button>
+    </div>
+    <div class="coffee">
+      <img src="cappuccino.jpeg" alt="Cappuccino Coffee">
+      <h3>CAPPUCCINO</h3>
+      <p>Rich and bold espresso with steamed milk and foam.</p>
+       <p>Price: ₹120</p>
+      <button onclick="openOrder('Cappuccino')">Order Now</button>
+    </div>
+    <div class="coffee">
+      <img src="latte.jpeg" alt="Latte Coffee">
+      <h3>LATTE</h3>  
+      <p>Rich and bold espresso with steamed milk and a light layer of foam.</p>
+       <p>Price: ₹220</p>
+      <button onclick="openOrder('Latte')">Order Now</button>
+    </div>
+      <div class="coffee">
+        <img src="espresso.jpeg" alt="Espresso Coffee">
+        <h3>ESPRESSO</h3>
+        <p>Rich and bold espresso shot.</p>
+        <p>Price: ₹120</p>
+        <button onclick="openOrder('Espresso')">Order Now</button>
+      </div>
+       <div class="coffee">
+        <img src="coldcoffee.jpeg" alt="Cold Coffee">
+        <h3>COLD COFFEE</h3>
+        
+        <p>Refresh your day with our cold coffee blend.</p>
+        <p>Price: ₹160</p>
+        <button onclick="openOrder('Cold Coffee')">Order Now</button>
+      </div>
+
+      <div class="burger">
+        <img src="MSGsmashburger.jpeg" alt="MSG smash burger">
+        <h3>SMASH BURGER</h3>
+        
+        <p>A delicious cheeseburger with fresh ingredients.</p>
+        <p>Price: ₹250</p>
+        <button onclick="openOrder('smashburger')">Order Now</button>
+      </div>
+      <div class="burger">
+        <img src="lucyburgur.jpeg" alt="Juicy lucy burger">
+        <h3>JUICY LUCY BURGER</h3>
+        <p>A delicious cheeseburger with fresh ingredients.</p>
+        <p>Price: ₹350</p>
+        <button onclick="openOrder('lucyburger')">Order Now</button>
+      </div>
+
+      <div class="burger">
+        <img src="veggieburger.jpeg" alt="Veggie Burger">
+        <h3>VEGGIE BURGER</h3>
+        <p>A delicious veggie burger with fresh ingredients.</p>
+        <p>Price: ₹350</p>
+        <button onclick="openOrder('vegburger')">Order Now</button>
+      </div>
+      <div class="burger">
+        <img src="bbqburger.jpeg" alt="BBQ Burger">
+        <h3>BBQ BURGER</h3>
+        <p>A delicious BBQ burger with fresh ingredients.</p>
+        <p>Price: ₹400</p>
+        <button onclick="openOrder('bbqburger')">Order Now</button>
+      </div>
+      <div class="drinks">
+        <img src="mojito.jpeg" alt="Mojito">
+        <h3>MOJITO</h3>
+        <p>A refreshing blend of mint, lime .</p>
+        <p>Price: ₹180</p>
+        <button onclick="openOrder('Mojito')">Order Now</button>
+      </div>
+      <div class="drinks">
+        <img src="bluemojito.jpeg" alt="Blue Mojito">
+        <h3>BLUE MOJITO</h3>
+        <p>A refreshing blend of mint, lime.</p>
+        <p>Price: ₹180</p>
+        <button onclick="openOrder('Blue Mojito')">Order Now</button>
+      </div>
+        <div class="drinks">
+          <img src="fruit.jpeg" alt="Fruit juice">
+          <h3>FRUIT JUICE</h3>
+          <p>A refreshing blend of fresh fruits.</p>
+          <p>Price: ₹200</p>
+          <button onclick="openOrder('Fruit Juice')">Order Now</button>
+        </div>
+         <div class="drinks">   
+          <img src="ice.jpeg" alt="Iced Tea">
+          <h3>ICED TEA</h3>
+          <p>Chilled iced tea.</p>
+          <p>Price: ₹150</p>
+          <button onclick="openOrder('Iced Tea')">Order Now</button>
+
+
+    
+
+  </section>
+
+  <!-- Modal Order Form -->
+  <div class="modal" id="orderModal">
+    <div class="modal-content">
+
+      <span class="close" onclick="closeOrder()">&times;</span>
+
+      <h2 id="pizzaName"></h2>
+      <form onsubmit="submitOrder(event)">
+        <input type="text" id="customerName" 
+        placeholder="Your Name" required>
+        <textarea id="address" 
+        placeholder="Delivery Address" required></textarea>
+        
+        <input type="tel" id="phone" 
+        placeholder="Phone Number" required>
+        <button type="submit" class="submit">Place Order</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    © Since 1942 Sachin Cafe| All Rights Reserved
+  </footer>
+
+  <script>
+    function openOrder(pizza) {
+      document.getElementById('pizzaName').innerText = "Order: " + pizza;
+      document.getElementById('orderModal').style.display = 'flex';
+    }
+    function closeOrder() {
+      document.getElementById('orderModal').style.display = 'none';
+    }
+    function submitOrder(event) {
+      event.preventDefault();
+      const name = document.getElementById('customerName').value;
+      const address = document.getElementById('address').value;
+      const phone = document.getElementById('phone').value;
+      alert("Thank you "+name+"! Your pizza will be delivered to "+address+".We’ll contact you at " + phone + ".");
+      closeOrder();
+    }
+  </script>
+</body>
+</html>
